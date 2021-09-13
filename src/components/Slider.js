@@ -1,4 +1,4 @@
-import React, { useState,useEffect, useRef  } from 'react'
+import React, { useState } from 'react'
 import SliderContent from './SliderContent'
 import Slide from './Slide'
 import Arrow from './Arrow/Arrow'
