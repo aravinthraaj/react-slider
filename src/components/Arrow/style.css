@@ -10,17 +10,16 @@
       cursor: pointer;
       align-items: center;
       transition: transform ease-in 0.1s;
-      
-      &:hover {
-        transform: scale(1.1);
-      }
-      img {
-        // transform: translateX(${direction === 'left' ? '-2' : '2'}px);
-        &:focus {
-          outline: 0;
-        }
-      }
+}
 
+.arrow:hover{
+    transform: scale(1.1);
+  
+}
+
+img:focus {
+  /* // transform: translateX(${direction === 'left' ? '-2' : '2'}px); */
+    outline: 0;
 }
 
 .right{

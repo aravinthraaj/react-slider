@@ -1,6 +1,6 @@
 
 import React from 'react'
-import './style.scss'
+import './style.css'
 // import { css, jsx } from '@emotion/react'
 import leftArrow from '../../img/left-arrow.svg'
 import rightArrow from '../../img/right-arrow.svg'
